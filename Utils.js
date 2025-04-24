@@ -10,6 +10,6 @@ let mouseY = 0;
 
 window.addEventListener('keydown', ev => {keyDown && keyDown(ev.code); isKeyPressed[ev.code] = true});
 window.addEventListener('keyup', ev => {keyUp && keyUp(ev.code); isKeyPressed[ev.code] = false});
-window.addEventListener('mousedown', _ => {mouseDown && mouseDown()});
-window.addEventListener('mouseup', _ => {mouseUp && mouseUp()});
+//window.addEventListener('mousedown', _ => {mouseDown && mouseDown()});
+//window.addEventListener('mouseup', _ => {mouseUp && mouseUp()});
 window.addEventListener('mousemove', ev => {mouseX = ev.x; mouseY = ev.y;});
